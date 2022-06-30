@@ -9,3 +9,5 @@
 - 18:35 The Genesis 学习记录仓库 commit
 - Some rustlings :smile: 做了点题找回手感
 
+2022/6/30
+- Some rustlings 
