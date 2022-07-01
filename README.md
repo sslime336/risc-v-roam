@@ -14,7 +14,7 @@
 
 2022/7/1
 &nbsp;&nbsp;顶着大太阳军训真是让人无语，还偏偏就我们排全程大太阳:sunny:，真亏我能挺过来 (明明说好五分钟军姿，怎么每次都是十分钟哇:sob:)
-- Some rustlings 进度推得有点慢啊……
+- Some rustlings 进度推得有点慢……还是有收获的，有些情况在我自己使用 Rust 的时候并没有遇到或考虑过
 - match 模式匹配会尽可能地消费，所以在一定情况下需要使用 `ref` 关键字来取引用
 > Bind by reference during pattern matching.
 
@@ -22,4 +22,31 @@
 
 > By default, match statements consume all they can, which can sometimes be a problem, when you don’t really need the value to be moved and owned
 
-
+### Rustling Progress Currently 
+*(temporary echo)*
+- [ ] advanced_errors/
+- [ ] clippy/
+- [ ] collections/
+- [ ] conversions/
+- [x] enums/
+- [x] error_handling/
+- [x] functions/
+- [x] generics/
+- [x] if/
+- [x] intro/
+- [ ] macros/
+- [x] modules/
+- [x] move_semantics/
+- [x] option/
+- [x] primitive_types/
+- [x] quiz1.rs
+- [x] quiz2.rs
+- [x] quiz3.rs
+- [ ] quiz4.rs
+- [ ] standard_library_types ← `pivot`
+- [x] strings/
+- [x] structs/
+- [x] tests/
+- [ ] threads/
+- [x] traits/
+- [x] variables/
