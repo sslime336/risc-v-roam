@@ -24,11 +24,15 @@
 
 - Some rustlings
 
+2022/7/4
+
+- Some rustlings
+
 ### Rustling Progress Currently 
 *(temporary echo)*
 - [ ] advanced_errors/
 - [x] clippy/ 
-- [ ] collections/
+- [x] collections/
 - [ ] conversions/ ← `pivot`
 - [x] enums/
 - [x] error_handling/
