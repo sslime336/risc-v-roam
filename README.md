@@ -30,10 +30,10 @@
 
 ### Rustling Progress Currently 
 *(temporary echo)*
-- [ ] advanced_errors/
+- [ ] advanced_errors/ ← `pivot`
 - [x] clippy/ 
 - [x] collections/
-- [ ] conversions/ ← `pivot`
+- [x] conversions/
 - [x] enums/
 - [x] error_handling/
 - [x] functions/
