@@ -31,6 +31,9 @@
 2022/7/5
 
 - Finished `rustlings`
-## Cur
-- [ ] 搭建环境
-- [ ] 复习 rustlings
+
+2022/7/6
+
+- 开始学习 risc-v
+- 初步熟悉训练营环境和 `GitHub Classroom` 
+- 开始搭建实验环境
