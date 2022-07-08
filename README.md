@@ -40,5 +40,9 @@ vscode RA(rust-analyzer) 在 \#\![no_std] 报错 Can't find crate for \`test\`
 2022/7/8
 *军训提前结束了，好耶 ヾ(✿ﾟ▽ﾟ)ノ*
 
+- 在 Windows 上安装了 [`make`](https://www.technewstoday.com/install-and-use-make-in-windows/)
+- 复习了 `Makefile` 的语法
+- 简单了解了 `link.ld` （链接脚本）的语法
+- 简单学习了 risc-v 的汇编指令
 - lab0-0
 - lab0-1 in progress
