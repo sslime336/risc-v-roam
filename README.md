@@ -32,5 +32,13 @@ Talk is cheap, show me the code! 多写多练是提高 Rust 熟练度的不二�
 - 看了一部分第一次课的视频
 
 vscode RA(rust-analyzer) 在 \#\![no_std] 报错 Can't find crate for \`test\`
+
 [解决办法·issue](https://github.com/rust-lang/rust-analyzer/issues/10716)
+
 [个人博客](https://www.cnblogs.com/slime04/p/16456463.html)
+
+2022/7/8
+*军训提前结束了，好耶 ヾ(✿ﾟ▽ﾟ)ノ*
+
+- lab0-0
+- lab0-1 in progress
