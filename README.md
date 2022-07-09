@@ -44,9 +44,13 @@ vscode RA(rust-analyzer) 在 \#\![no_std] 报错 Can't find crate for \`test\`
 - 复习了 `Makefile` 的语法
 - 简单了解了 `link.ld` （链接脚本）的语法
 - 简单学习了 risc-v 的汇编指令
-- lab0-0
+- lab0-0 finished
 - lab0-1 in progress
 
 2022/7/9
 
 *笔记记的有点杂……之后再整理 .jpg*
+
+- lab0-1 finished
+- 复习 rustlings
+- init lab1-os3
