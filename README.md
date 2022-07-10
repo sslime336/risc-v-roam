@@ -54,3 +54,7 @@ vscode RA(rust-analyzer) 在 \#\![no_std] 报错 Can't find crate for \`test\`
 - lab0-1 finished
 - 复习 rustlings
 - init lab1-os3
+
+2022/7/10
+
+- os3 in progress
