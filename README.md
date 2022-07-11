@@ -58,3 +58,14 @@ vscode RA(rust-analyzer) 在 \#\![no_std] 报错 Can't find crate for \`test\`
 2022/7/10
 
 - os3 in progress
+
+2022/7/11
+
+*开始收拾东西回家*
+
+- rustlings@v2
+- os3 finished!
+- os4 in progress
+搞了好长时间终于过了:smile:
+总结啥的先放一放.jpg(绝对不是懒，哼~)
+[叉腰╭(╯^╰)╮]
