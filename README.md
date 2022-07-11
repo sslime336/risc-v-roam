@@ -65,6 +65,7 @@ vscode RA(rust-analyzer) 在 \#\![no_std] 报错 Can't find crate for \`test\`
 
 - rustlings@v2
 - os3 finished!
+- 整体迁移到 wsl in progress
 - os4 in progress
 搞了好长时间终于过了:smile:
 总结啥的先放一放.jpg(绝对不是懒，哼~)
