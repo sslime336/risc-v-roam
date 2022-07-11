@@ -33,9 +33,9 @@ Talk is cheap, show me the code! 多写多练是提高 Rust 熟练度的不二�
 
 vscode RA(rust-analyzer) 在 \#\![no_std] 报错 Can't find crate for \`test\`
 
-[解决办法·issue](https://github.com/rust-lang/rust-analyzer/issues/10716)
-
-[个人博客](https://www.cnblogs.com/slime04/p/16456463.html)
+解决办法:
+- [解决办法·issue](https://github.com/rust-lang/rust-analyzer/issues/10716)
+- [个人博客](https://www.cnblogs.com/slime04/p/16456463.html)
 
 2022/7/8
 *军训提前结束了，好耶 ヾ(✿ﾟ▽ﾟ)ノ*
@@ -67,6 +67,17 @@ vscode RA(rust-analyzer) 在 \#\![no_std] 报错 Can't find crate for \`test\`
 - os3 finished!
 - 整体迁移到 wsl in progress
 - os4 in progress
-搞了好长时间终于过了:smile:
+
+os3 搞了好长时间终于过了:smile:
 总结啥的先放一放.jpg(绝对不是懒，哼~)
 [叉腰╭(╯^╰)╮]
+
+2022/7/12
+
+- 回家的准备（忙起来了，估计回到家后就没这么多时间了qwq）
+- 继续看 os4 相关前置知识
+- 在反反复复尝试了那么多次后，觉得还是继续使用 github classroom 比较好 0_0 (傻眼)
+- rustlings@v2 in progress (感觉已经好久没动了)
+
+*争取在回家前将 os4 完成 冲冲冲！*
+*笔记和总结抽时间再整理 .jpg*
