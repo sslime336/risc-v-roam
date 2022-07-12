@@ -18,7 +18,9 @@ Talk is cheap, show me the code! 多写多练是提高 Rust 熟练度的不二�
 
 #### Part #2
 2022/7/6
+
 *军训 ing...*
+
 *持续摸索 github classroom 和 lab の 食用方法*
 
 - 开始学习 risc-v
