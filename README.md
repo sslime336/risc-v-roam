@@ -87,3 +87,9 @@ os3 搞了好长时间终于过了:smile:
 2022/7/13
 
 - 到家，太晚了qwq
+
+2022/7/14
+
+- rustlings v2 in progress 
+- lab2 in progress
+- 开始准备科目三、四，科四题库体还不少……
