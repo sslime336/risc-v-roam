@@ -59,25 +59,25 @@ vscode RA(rust-analyzer) 在 \#\![no_std] 报错 Can't find crate for \`test\`
 
 2022/7/10
 
-- os3 in progress
+- lab1 in progress
 
 2022/7/11
 
 *开始收拾东西回家*
 
 - rustlings@v2
-- os3 finished!
+- lab1 finished!
 - 整体迁移到 wsl in progress
-- os4 in progress
+- lab2 in progress
 
-os3 搞了好长时间终于过了:smile:
+lab1 搞了好长时间终于过了:smile:
 总结啥的先放一放.jpg(绝对不是懒，哼~)
 [叉腰╭(╯^╰)╮]
 
 2022/7/12
 
 - 回家的准备（忙起来了，估计回到家后就没这么多时间了qwq）
-- 继续看 os4 相关前置知识
+- 继续看 lab2 相关前置知识
 - 在反反复复尝试了那么多次后，觉得还是继续使用 github classroom 比较好 0_0 (傻眼)
 - rustlings@v2 in progress (感觉已经好久没动了)
 
@@ -90,6 +90,12 @@ os3 搞了好长时间终于过了:smile:
 
 2022/7/14
 
-- rustlings v2 in progress 
+- rustlings@v2 in progress 
 - lab2 in progress
 - 开始准备科目三、四，科四题库还不少……
+
+2022/7/15
+
+- 简单处理了一下笔记（实验报告是什么，怎么写qwq）
+- rustlings@v2
+- lab2 in progress
