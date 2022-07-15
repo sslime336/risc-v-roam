@@ -99,3 +99,4 @@ lab1 搞了好长时间终于过了:smile:
 - 简单处理了一下笔记（实验报告是什么，怎么写qwq）
 - rustlings@v2
 - lab2 in progress
+- Obsidian 学习开坑，dddd 穷哭了（bushi）
