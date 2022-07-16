@@ -49,4 +49,65 @@ SV39 分页模式规定 64 位的虚拟地址的 [63:39] 位必须和第 38 位�
 注意，页表也需要存储在内存中，同时在 risc-v 架构中，使用了 **CSR**（控制与状态寄存器）来保存页表的根地址（之所以说是根地址，是因为我们在实际中使用的是[多级页表](https://blog.csdn.net/ibless/article/details/81275009)）
 
 
+#### lab2 相关概念
+
+```rust
+/// 物理地址
+#[derive(Copy, Clone, Ord, PartialOrd, Eq, PartialEq)]
+pub struct PhysAddr(pub usize); 
+
+/// 虚拟地址
+#[derive(Copy, Clone, Ord, PartialOrd, Eq, PartialEq)]
+pub struct VirtAddr(pub usize);
+
+/// 物理页号
+#[derive(Copy, Clone, Ord, PartialOrd, Eq, PartialEq)]
+pub struct PhysPageNum(pub usize);
+
+/// 虚拟页号
+#[derive(Copy, Clone, Ord, PartialOrd, Eq, PartialEq)]
+pub struct VirtPageNum(pub usize);
+
+// ...
+
+/// SV39 分页模式下的页表项，其中[53:10]这44位是物理页号，最低的8位[7:0]，则是标志位
+/// 物理页号和全部的标志位以某种固定的格式保存在一个结构体中，它被称为 **页表项** (PTE, Page Table Entry) ，其是利用虚拟页号在页表中查到的结果。
+/// 简单来说，PageTableEntry 是对按照 SV39标准排列的物理地址和标志位整体，即 bits 字段，的包装
+/// 页表的一个 key-value 格式为 <VirtAddr, PageTableEntry>，这其中，作为 value 的 PageTableEntry 就是虚拟地址 VirtAddr 对应的物理地址和标志位的包装
+#[derive(Copy, Clone)]
+#[repr(C)]
+pub struct PageTableEntry { // 这名字取得多少有点迷惑性……叫 Entry 多少有点不合适= 。=
+    pub bits: usize,
+}
+
+// ...
+
+/*
+我们以逻辑段 `MapArea` 为单位描述一段连续地址的虚拟内存。所谓逻辑段，就是指地址区间中的一段实际可用的地址连续的虚拟地址区间，该区间内包含的所有虚拟页面都以一种相同的方式映射到物理页帧，具有可读/可写/可执行等属性
+*/
+pub struct MapArea {
+    vpn_range: VPNRange,
+    data_frames: BTreeMap<VirtPageNum, FrameTracker>,
+    map_type: MapType,
+    map_perm: MapPermission,
+}
+
+pub type VPNRange = SimpleRange<VirtPageNum>; // 一个可迭代的类型
+
+// ...
+
+/// 地址空间是一系列有关联的逻辑段，这种关联一般是指这些逻辑段属于一个运行的程序（目前把一个运行的程序称为任务，后续会称为进程）
+pub struct MemorySet {
+    page_table: PageTable,
+    areas: Vec<MapArea>, // 一系列逻辑段的集合，.bss .text .rodata .data 构成一个程序
+}
+```
+
+内核也是一个程序，具有一个 `MemorySet` 叫做 `KERNEL_SPACE`
+```rust
+pub static ref KERNEL_SPACE: Arc<Mutex<MemorySet>> =
+    Arc::new(Mutex::new(MemorySet::new_kernel()));
+
+```
+
 
