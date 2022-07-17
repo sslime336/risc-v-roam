@@ -101,9 +101,15 @@ lab1 搞了好长时间终于过了:smile:
 - lab2 in progress
 - Obsidian 学习开坑，dddd 穷哭了（bushi）
 
-2022/7/15
+2022/7/16
 *补上……*
 
 - rustlings@v2
 - lab2 in progress
 
+2022/7/17
+*终于快完成 lab2 了，属于是把基础知识全学了一遍，理清楚后豁然开朗了*
+
+- rustlings@v2 done!
+- 学习 mmap 和 munmap
+- lab2 就差一点了qwq (坑死我了qwq) <- 菜是原罪.jpg
