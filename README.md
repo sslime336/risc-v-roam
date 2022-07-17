@@ -100,3 +100,10 @@ lab1 搞了好长时间终于过了:smile:
 - rustlings@v2
 - lab2 in progress
 - Obsidian 学习开坑，dddd 穷哭了（bushi）
+
+2022/7/15
+*补上……*
+
+- rustlings@v2
+- lab2 in progress
+
