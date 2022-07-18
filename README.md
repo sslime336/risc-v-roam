@@ -113,3 +113,9 @@ lab1 搞了好长时间终于过了:smile:
 - rustlings@v2 done!
 - 学习 mmap 和 munmap
 - lab2 就差一点了qwq (坑死我了qwq) <- 菜是原罪.jpg
+
+2022/7/18
+*刚做完第二边 rustlings，结果它更新了 :joy: 有时间再看看也不坏*
+
+- lab2 finish
+- lab3 in progress
