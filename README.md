@@ -119,3 +119,8 @@ lab1 搞了好长时间终于过了:smile:
 
 - lab2 finish
 - lab3 in progress
+
+2022/7/19
+*感觉搞得有点神经衰弱了 摆米袋 qwq*
+
+- lab3 in progress
